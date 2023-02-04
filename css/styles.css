@@ -1,0 +1,174 @@
+body {
+  font-family: "Montserrat";
+  text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Montserrat";
+  font-weight: bold;
+}
+
+p {
+  color: #8f8f8f;
+}
+
+/*headings*/
+
+.big-heading {
+  font-family: 'Montserrat-Black', sans-serif;
+  font-size: 3.2rem;
+  line-height: 1.5;
+  font-weight: 900;
+  color:#fff;
+}
+
+.section-heading {
+  font-size: 2.5rem;
+  line-height: 1.5;
+}
+
+/*SECTIONS*/
+
+.colored-section {
+  background-color: #ff4c68;
+  color: #fff;
+}
+
+.white-section {
+  background-color: #fff;
+}
+
+#title {
+  text-align: left;
+
+}
+
+.container-fluid {
+  padding: 3% 15% 7%;
+  /*3 top. 15 left and right. 7 bottom*/
+}
+.navbar {
+  padding: 0 0 4.5rem;
+  /*0 virsuj 0 desinej ir kairei ir 4.5 apacioj*/
+}
+
+.navbar-brand {
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-weight: 300;
+}
+
+.download-button {
+  margin: 5% 3% 5% 0;
+}
+
+.iphone {
+  width: 60%;
+  transform: rotate(25deg);
+  position: absolute;
+  right: 25%;
+}
+
+/*FEATURES*/
+
+#features {
+  padding: 7% 15%;
+  position: relative;
+  z-index: 1;
+}
+
+.feat {
+  padding: 5%
+}
+
+.icon {
+  color: #ef8172;
+  margin-bottom: 1rem;
+}
+
+.icon:hover {
+  color: #ff4c68;
+}
+
+.feature-title {
+  font-size: 1.5rem;
+}
+
+/*TESTIMONIALS*/
+
+#testimonials {
+  background-color: #ef8172;
+}
+
+.testimonial-text {
+  font-size: 2.5rem;
+  line-height: 1.5;
+}
+
+.testim-img {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+#press {
+  background-color: #ef8172;
+  padding-bottom: 3%;
+}
+
+.press-logo {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+.carousel-item {
+  padding: 7% 15%;
+}
+
+/*PRICING*/
+
+#pricing {
+  padding: 100px;
+}
+.price-text{
+  font-size: 2.5rem;
+  line-height: 1.5;
+}
+
+.pricing-col {
+  padding: 3% 2%;
+}
+
+@media (max-width: 1028px) {
+  #title {
+    text-align: center;
+  }
+
+  .iphone {
+    position: static;
+    /*grazina nenukirpta*/
+    transform: rotate(0);
+  }
+}
+
+#cta {
+  background-color: #ff4c68;
+  padding: 5% 15%;
+}
+
+#footer {
+  padding: 5% 15%;
+}
+
+.prog {
+  margin: 20px 15px;
+}
